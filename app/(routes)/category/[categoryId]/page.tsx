@@ -11,6 +11,7 @@ import getColors from '@/actions/get-colors';
 
 import Filter from './components/filter';
 import MobileFilters from './components/mobile-filters';
+import { Navbar } from '@/components';
 
 export const revalidate = 0;
 
@@ -39,6 +40,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
 
   return (
     <div className="bg-white">
+      <Navbar/>
       <Container>
         <Billboard 
           data={category.billboard}

@@ -105,3 +105,20 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+
+.buy-button{
+  align-items: center;
+  border-width: 3px;
+  height: 4rem;
+  width: 10rem;
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: rgb(237, 223, 180);
+  border-radius: 10px;
+}
+.heading{
+  font-size: 40px;
+}
