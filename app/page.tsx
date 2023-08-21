@@ -1,10 +1,8 @@
 import FooterLanding from "@/components/FooterLanding";
-import NavbarLanding from "@/components/NavbarLanding";
 import {
   GetStarted1,
   GetStarted2,
   Hero,
-  Insights,
   WhatsNew1,
   WhatsNew2,
   World,
