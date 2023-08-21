@@ -1,5 +1,4 @@
 import Nabar from '@/components/Nabar';
-import { Footer, Navbar } from '../../components';
 import { GetStarted1, GetStarted2, Hero, Insights, WhatsNew1,WhatsNew2, World } from '../../sections'
 
 const Home = () => (

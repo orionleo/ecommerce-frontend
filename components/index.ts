@@ -4,6 +4,7 @@ import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
 import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
+import Navbar from './navbar';
 
 export {
   TitleText,
@@ -12,4 +13,5 @@ export {
   NewFeatures,
   ExploreCard,
   InsightCard,
+  Navbar
 };

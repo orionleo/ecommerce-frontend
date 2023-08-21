@@ -32,6 +32,6 @@ const Home = () => (
     </div>
     <FooterLanding />
   </div>
-);
+); 
 
 export default Home;
