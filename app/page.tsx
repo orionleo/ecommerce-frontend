@@ -12,7 +12,6 @@ import {
 
 const Home = () => (
   <div className="bg-white overflow-hidden">
-    <NavbarLanding />
 
     <div className="relative"> 
       <Hero />
