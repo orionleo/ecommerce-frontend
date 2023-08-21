@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ExploreCard.tsx", "components/InsightCard.tsx", "components/CustomTexts.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ExploreCard.tsx", "components/InsightCard.tsx", "components/CustomTexts.tsx", "sections/GetStarted2.jsx", "sections/GetStarted1.jsx", "sections/Hero.jsx", "sections/WhatsNew1.jsx", "sections/World.jsx", "sections/WhatsNew2.jsx", "sections/Feedback.jsx"],
   "exclude": ["node_modules"]
 }
