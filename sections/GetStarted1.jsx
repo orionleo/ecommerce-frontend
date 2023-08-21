@@ -7,6 +7,7 @@ import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
+
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
@@ -36,7 +37,7 @@ const GetStarted = () => (
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos id fugit eligendi exercitationem. Numquam alias delectus unde praesentium at minus nihil!</p>
       <div className="but">
-        <button className='buy-button'>Buy Now</button>
+        <button className="flex items-center justify-center border-3 h-16 w-40 absolute bg-yellow-300 rounded-10">Buy Now</button>
       </div>
 
         {/* <TypingText title="| How Metaversus Works" />

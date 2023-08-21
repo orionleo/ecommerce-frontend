@@ -7,6 +7,7 @@ import useCart from '@/hooks/use-cart';
 
 import Summary from './components/summary'
 import CartItem from './components/cart-item';
+import { Navbar } from '@/components';
 
 export const revalidate = 0;
 
@@ -24,6 +25,7 @@ const CartPage = () => {
 
   return (
     <div className="bg-white">
+      <Navbar/>
       <Container>
         <div className="px-4 py-16 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-black">Shopping Cart</h1>
