@@ -14,7 +14,7 @@ const Home = () => (
   <div className="bg-white overflow-hidden">
     <NavbarLanding />
 
-    <div className="relative">
+    <div className="relative"> 
       <Hero />
       <br />
       <br />
