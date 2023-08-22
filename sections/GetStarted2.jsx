@@ -3,17 +3,9 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-// import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
-const staggerContainer = (staggerChildren, delayChildren) => ({
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren,
-      delayChildren,
-    },
-  },
-});
+
 
 
 const GetStarted = () => (
