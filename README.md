@@ -9,7 +9,7 @@
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ecommerce-store.git
+git clone https://github.com/AntonioErdeljac/next13-ecommerce-store.git](https://github.com/orionleo/ecommerce-frontend.git
 ```
 
 ### Install packages
